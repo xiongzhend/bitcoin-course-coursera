@@ -5,7 +5,7 @@
 public class BlockChain {
     public static final int CUT_OFF_AGE = 10;
 
-     public ArrayList< ArrayList<pair<Block, UTXOPool>> > utxoBlocks =  new ArrayList< ArrayList<pair<Block, UTXOPool>>>
+     public ArrayList< ArrayList<pair<Block, UTXOPool>> > utxoBlocks =  new ArrayList< ArrayList<pair<Block, UTXOPool>>>;
      public TransactionPool txPool;
     /**
      * create an empty block chain with just a genesis block. Assume {@code genesisBlock} is a valid
