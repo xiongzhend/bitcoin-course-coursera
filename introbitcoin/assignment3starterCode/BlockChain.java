@@ -58,6 +58,7 @@ public class BlockChain {
      */
     public boolean addBlock(Block block) {
         // IMPLEMENT THIS
+        return false;
     }
 
     /** Add a transaction to the transaction pool */
